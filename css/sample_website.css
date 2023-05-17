@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Chewy&display=swap');
+
+body{
+    background-image: url("/images/pattern2.jpg");
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.content{
+    max-width: 450px;
+    margin: auto;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 140;
+    font-family: 'Chewy', cursive;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: auto 0;
+}
+
+li{
+    margin-right: 2rem;
+    color: azure;
+    padding: .7rem;
+    text-transform: capitalize;
+}
+
+.header{
+    background-color: black;
+    /* padding: .7rem; */
+}
+
+li:hover{
+    background-color:azure;
+    color: rgb(118, 98, 98);
+}
+
+p{
+    letter-spacing: 3.8px;
+    word-spacing: 10px;
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+button{
+    background-color: rgb(81, 137, 241);
+    border: none;
+    padding: 11px;
+    border-radius: 4px;
+    color: azure;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#input1{
+    padding: 11px;
+}
+
+#input1:focus{
+    outline-color: rgb(81, 137, 241);
+}
